@@ -1,0 +1,25 @@
+{
+  "cfg": {
+    "hidden": 400,
+    "actor_lr": 0.0001,
+    "critic_lr": 0.0001,
+    "alpha_lr": 0.0001,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "batch_size": 256,
+    "guide_step": 10,
+    "guide_lr": 0.0001,
+    "guide_alpha": 0.05,
+    "mc_samples": 5,
+    "total_steps": 150000,
+    "warmup": 5000,
+    "eval_freq": 10000,
+    "eval_eps": 5,
+    "ckpt_freq": 25000,
+    "log_freq": 1000,
+    "seed": 42
+  },
+  "eval_hist": [],
+  "loss_hist": [],
+  "best_eval": -1000000000.0
+}
